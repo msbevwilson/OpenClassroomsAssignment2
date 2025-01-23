@@ -1153,7 +1153,7 @@
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
     .search-text {
        display: none;
      }
@@ -1168,16 +1168,13 @@
     }
 }
 
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 768px) {
     .search-text {
        display: inline;
      }
      .fa-magnifying-glass {
         display: none;
      }
-}
-
-@media only screen and (min-width: 768px) {
     .button:hover {
         border-top: 2px solid #0065FC;
     }
